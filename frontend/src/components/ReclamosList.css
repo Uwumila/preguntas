@@ -1,0 +1,23 @@
+h2 {
+    font-family: cursive;
+    text-align: center;
+}
+p {
+    font-family: cursive;
+    text-align: center;
+}
+
+.Respuestas-container {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.Formulario.container {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 208, 208, 0)
+}

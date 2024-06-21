@@ -1,0 +1,18 @@
+body {
+    background-image: url('assets/images/v223_7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+.ReclammosYSugerencias-container {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(243, 235, 235, 0.8) 
+}
