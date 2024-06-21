@@ -23,18 +23,21 @@ const ReclamosList = () => {
     <div className='Respuestas-container'>
       <h2>_______________________________</h2>
       <h2>Lista de Reclamos y sugerencias</h2>
-      <h2>______________________</h2>
+      
       <div className='Formulario.container'>
         
         <ul>
           {reclamos.map((reclamo) => (
             <li key={reclamo._id}>
+              <h2>______________________</h2>
               <p>Nombre: {reclamo.nombre}</p>
               <p>Email:{reclamo.email}</p>
               <p>Mensaje: {reclamo.mensaje}</p>
+              <h2>______________________</h2>
             </li>
           ))}
         </ul>
+        <h2>_______________________________</h2>
       </div>
     </div>
   );
