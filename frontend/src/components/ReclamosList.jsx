@@ -6,16 +6,16 @@ import './ReclamosList.css'
 const ReclamosList = () => {
   const [reclamos, setReclamos] = useState([]);
 
-  useEffect(() => {
-    const fetchReclamos = async () => {
-      try {
-        const response = await axios.get('http://localhost:5000/api/reclamos');
-        setReclamos(response.data);
-      } catch (err) {
-        console.error('Error al obtener los reclamos', err);
-      }
-    };
+  const fetchReclamos = async () => {
+    try {
+      const response = await axios.get('http://localhost:5000/api/reclamos');
+      setReclamos(response.data);
+    } catch (err) {
+      console.error('Error al obtener los reclamos:', err);
+    }
+  };
 
+  useEffect(() => {
     fetchReclamos();
   }, []);
 
