@@ -6,9 +6,9 @@ const app = express();
 const port = 5000;
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Asegúrate de que esta URL es la de tu frontend
-  methods: ['GET', 'POST'], // Permite los métodos que necesitas
-  credentials: true // Si necesitas enviar cookies o cabeceras de autorización
+  origin: 'http://localhost:5173', 
+  methods: ['GET', 'POST'], 
+  credentials: true 
 }));
 app.use(express.json());
 

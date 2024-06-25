@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReclamoForm from './components/ReclamoForm';
 import ReclamosList from './components/ReclamosList';
+import FooterRating from './components/footer'
 
 const App = () => {
   return (
@@ -14,6 +15,9 @@ const App = () => {
         <h2>__________________</h2>
         <ReclamoForm />
         <ReclamosList />
+      </div>
+      <div>
+      <FooterRating />
       </div>
     </div>
   );
